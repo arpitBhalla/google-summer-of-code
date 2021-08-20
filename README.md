@@ -43,7 +43,7 @@ The **Google Summer of Code 2021** has been a fantastic and cheerful learning ex
 
 Reference : [Pressable vs. Touchable in React Native](https://medium.com/@mahyarmohammadi/react-native-pressable-vs-touchable-5fec6b332f15)
 
-### Migrate Tests to React Native Testing Library
+### Migrate Tests to React Native Testing Library [(#3170)](https://github.com/react-native-elements/react-native-elements/pull/3170)
 
 > Rather than tests focusing on the implementation (Enzyme), tests are more focused on user behavior (react-native-testing-library).
 
@@ -51,29 +51,42 @@ Enzyme allows us to access the internal workings of your components. You can rea
 
 ### Class to Functions Migration
 
-Some components like **Input, Image, ToolTip, Search Bar** which further include SearchBar android & SearchBar iOS were Class Components and the code was messy, These are migrated to Functional Components and added hooks like, useState, useEffect, useCallBack, which would increase performance.
+Some components like **Image, ToolTip** which further include SearchBar android & SearchBar iOS were Class Components and the code was messy, These are migrated to Functional Components and added hooks like, useState, useEffect, useCallBack, which would increase performance.
 
 - **Using classes** - We need to describe lifecycle methods, state of the component, component’s methods that will change our state or work with the store. Also, we need to bind all the methods for the component instance. The component becomes large, and it becomes more difficult to read each time.
 - **Using hooks** - We can get the state of the component so that it can be easily tested and reused. Now we can facilitate the exchange of links between components or our entire application - using hooks. Hooks allow you to encapsulate logic without affecting the hierarchy of components.
 
-## 🎊 Contributions
+## [🎊 My Contributions](https://github.com/react-native-elements/react-native-elements/pulls?q=is%3Apr+author%3AarpitBhalla)
 
-### Some new components
+### Website homepage redesigned [(#3108)](https://github.com/react-native-elements/react-native-elements/pull/3108)
 
-- [Added New component: LinearProgress (#2867)](https://github.com/react-native-elements/react-native-elements/pull/2867)
-- [Added New Component: FAB (#2885)](https://github.com/react-native-elements/react-native-elements/pull/2885)
-- [Added New Component: Speed dial (#2896)](https://github.com/react-native-elements/react-native-elements/pull/2896)
-- [Added New Component: Tab & TabItem (#2919)](https://github.com/react-native-elements/react-native-elements/pull/2919)
-- [Added New Component: CircularSlider (#1)](https://github.com/react-native-elements/react-native-elements-universe/pull/1)
-- [Added New Component: TabView & TabView.Item (#2983)](https://github.com/react-native-elements/react-native-elements/pull/2983)
-- [Added New Sub Component: ListItem Accordion (#2953)](https://github.com/react-native-elements/react-native-elements/pull/2953)
-- [Added New Sub Component: ListItem Swipeable (#2982)](https://github.com/react-native-elements/react-native-elements/pull/2982)
+<div align='center'>
+<img src='assets/website.png' >
+</div>
 
-### Core Changes
+### VS Code extension
+
+Auto complete snippet and imports extension for React Native Elements, 900+ installs within 3 months
+
+<div align='center'>
+<img src='assets/vscode.png' >
+</div>
+
+### New components
+
+- [LinearProgress (#2867)](https://github.com/react-native-elements/react-native-elements/pull/2867)
+- [FAB (#2885)](https://github.com/react-native-elements/react-native-elements/pull/2885)
+- [Speed dial (#2896)](https://github.com/react-native-elements/react-native-elements/pull/2896)
+- [Tab & TabItem (#2919)](https://github.com/react-native-elements/react-native-elements/pull/2919)
+- [CircularSlider (#1)](https://github.com/react-native-elements/react-native-elements-universe/pull/1)
+- [TabView & TabView.Item (#2983)](https://github.com/react-native-elements/react-native-elements/pull/2983)
+- [ListItem Accordion (#2953)](https://github.com/react-native-elements/react-native-elements/pull/2953)
+- [ListItem Swipeable (#2982)](https://github.com/react-native-elements/react-native-elements/pull/2982)
+
+### Core Improvements
 
 - [Migrate build to Github Actions (#3036)](https://github.com/react-native-elements/react-native-elements/pull/3036)
 - [Strict TypeScript (#2930)](https://github.com/react-native-elements/react-native-elements/pull/2930)
-- [Website Redesigned & Snack for demo (#3108)](https://github.com/react-native-elements/react-native-elements/pull/3108)
 - [Removed ts-ignore and transformed to Functional Component (#2834)](https://github.com/react-native-elements/react-native-elements/pull/2834)
 
 ## 🚧 What's next?
