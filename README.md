@@ -1,7 +1,7 @@
 # Google Summer of Code 2021
 
 <div align='center'>
-<img src='assets/header.png' width='900'/>
+<img src='assets/header.png' width='900' height='300'/>
 </div>
 
 ## 📑 Project Details
@@ -56,29 +56,9 @@ Some components like **Image, ToolTip** which further include SearchBar android 
 - **Using classes** - We need to describe lifecycle methods, state of the component, component’s methods that will change our state or work with the store. Also, we need to bind all the methods for the component instance. The component becomes large, and it becomes more difficult to read each time.
 - **Using hooks** - We can get the state of the component so that it can be easily tested and reused. Now we can facilitate the exchange of links between components or our entire application - using hooks. Hooks allow you to encapsulate logic without affecting the hierarchy of components.
 
-## [🎊 My Contributions](https://github.com/react-native-elements/react-native-elements/pulls?q=is%3Apr+author%3AarpitBhalla+sort%3Aupdated-desc+is%3Amerged)
+## 🎊 My Contributions
 
-### Documentation redesigned [(#3108)](https://github.com/react-native-elements/react-native-elements/pull/3108)
-
-<div align='center'>
-<img src='assets/website.png' >
-</div>
-
-### Snack player
-
-It helps user to test the component from documentation
-
-<div align='center'>
-<img src='assets/snack.png' >
-</div>
-
-### VS Code extension
-
-Auto imports components and auto complete syntax with component preview for React Native Elements.
-
-<div align='center'>
-<img src='assets/vscode.png' >
-</div>
+You can find all my contributions [here](https://github.com/react-native-elements/react-native-elements/pulls?q=is%3Apr+author%3AarpitBhalla+sort%3Aupdated-desc+is%3Amerged)
 
 ### New components
 
@@ -97,11 +77,33 @@ Auto imports components and auto complete syntax with component preview for Reac
 - [Strict TypeScript (#2930)](https://github.com/react-native-elements/react-native-elements/pull/2930)
 - [Removed ts-ignore and transformed to Functional Component (#2834)](https://github.com/react-native-elements/react-native-elements/pull/2834)
 
+### Documentation redesigned [(#3108)](https://github.com/react-native-elements/react-native-elements/pull/3108)
+
+<div align='center'>
+<img src='assets/website.png' />
+</div>
+
+### Snack player
+
+It helps user to test the component from documentation
+
+<div align='center'>
+<img src='assets/snack.png' />
+</div>
+
+### VS Code extension
+
+Auto imports components and auto complete syntax with component preview for React Native Elements.
+
+<div align='center'>
+<img src='assets/vscode.png' />
+</div>
+
 ## 🚧 What's next?
 
 ### New `Stack` Component
 
-Stack is concerned with one-dimensional layouts. This is not yet in our priority but I wish I could work on this.
+Stack is concerned with one-dimensional layouts. `This is not yet in the priority` but it would help developers.
 
 Example
 
@@ -112,7 +114,3 @@ Example
   <Item>Item 3</Item>
 </Stack>
 ```
-
-### Improving VS Code Extension
-
-RNEv4 would introduce some breaking changes, I need to update snippets to support latest API
