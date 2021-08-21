@@ -1,7 +1,7 @@
 # Google Summer of Code 2021
 
 <div align='center'>
-<img src='assets/header.png' width='900' height='300'/>
+<img src='assets/header.png' width='900'/>
 </div>
 
 ## 📑 Project Details
